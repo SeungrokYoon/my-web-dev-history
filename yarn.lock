@@ -467,6 +467,7 @@ __metadata:
     "@next/eslint-plugin-next": "npm:^15.5.0"
     eslint: "npm:^9.39.1"
     eslint-config-prettier: "npm:^10.1.1"
+    eslint-config-turbo: "npm:^2.6.1"
     eslint-plugin-only-warn: "npm:^1.1.0"
     eslint-plugin-react: "npm:^7.37.5"
     eslint-plugin-react-hooks: "npm:^5.2.0"
@@ -1264,6 +1265,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-turbo@npm:^2.6.1":
+  version: 2.6.1
+  resolution: "eslint-config-turbo@npm:2.6.1"
+  dependencies:
+    eslint-plugin-turbo: "npm:2.6.1"
+  peerDependencies:
+    eslint: ">6.6.0"
+    turbo: ">2.0.0"
+  checksum: 10/a661b92280db4311fa7bc31d815590958e0d9f8c352c593f36779e2b0b6629ed461e86f7634a7102e2cb6f3d8a4571a5aa1312d5345c5b256243720363f34b25
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-only-warn@npm:^1.1.0":
   version: 1.1.0
   resolution: "eslint-plugin-only-warn@npm:1.1.0"
@@ -1308,7 +1321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-turbo@npm:^2.6.0":
+"eslint-plugin-turbo@npm:2.6.1, eslint-plugin-turbo@npm:^2.6.0":
   version: 2.6.1
   resolution: "eslint-plugin-turbo@npm:2.6.1"
   dependencies:
